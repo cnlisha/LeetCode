@@ -13,7 +13,7 @@ class Solution(object):
             if (nums[middle]==target):
                 return middle
             elif (nums[middle]<target):
-                left = middle  +1
+                left = middle + 1
             else:
                 right = middle - 1
         return left
